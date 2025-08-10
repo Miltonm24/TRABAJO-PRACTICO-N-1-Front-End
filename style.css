@@ -1,0 +1,50 @@
+body {
+    background: #dfebf7;
+    color: #000000;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+h1 {
+    color: #090606;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.card {
+    background: #befabe;
+    border: 3px solid #1e04b0;
+    border-radius: 30px;
+    box-shadow: 0 4px 16px rgba(44, 62, 80, 0.07);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.13);
+}
+
+.card-title {
+    color: #40916c;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.card-text {
+    color: #040609;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background-color: #74c69d;
+    border-color: #52b788;
+    color: #05030304;
+    font-weight: 500;
+    transition:transform 3s, border 3s;
+}
+
+.btn-primary:hover {
+    background-color: #52b788;
+    border-color: #40916c;
+    color: #a13838;
+}
