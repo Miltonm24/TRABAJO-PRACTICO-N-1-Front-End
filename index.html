@@ -1,108 +1,283 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IPHONE</title>
-    <link rel="stylesheet" href="./style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-</head>
-
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4 shadow-sm rounded">
-    <div class="container">
-        <a class="navbar-brand fw-bold text-success" href="#">IPHONE</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-        <li class="nav-item">
-        <a class="" aria-current="page" href="#">Inicio</a>
-        </li>
-        <li class="nav-item">
-        <a class="" href="#">Modelos</a>
-        </li>
-        <li class="nav-item">
-        <a class="" href="#">Contacto</a>
-        </li>
-        </ul>
-        </div>
-    </div>
-    </nav>
-    <div class="container text-center my-5">
-        <h1>LOS MEJORES IPHONE</h1>
-        <div class="row justify-content-center">
-        <div class="col-md-4 mb-4">
-        <div>
-        <p>
-        Los modelos de iPhone ofrecen diversas opciones, desde el económico iPhone SE hasta el potente iPhone 16 Pro Max.
-        con el iPhone 13 y el iPhone 15 como opciones populares por su equilibrio entre precio y características.
-        La elección ideal depende de las prioridades del usuario, ya sea presupuesto, rendimiento, tamaño de pantalla o capacidades de cámara. 
-A continuación, se detallan algunas reseñas y recomendaciones sobre diferentes modelos de iPhone:
-
-La opción más asequible, ideal para quienes buscan un iPhone sin gastar demasiado. 
-iPhone 13:
-
-        </p>
-        </div>
-
-    <div class="card" style="width: 18rem;">
-        <img src="img/iphone13pro/iphone 1.avif" class="card-img-top" alt="Iphone 13 Pro">
-        <div class="card-body">
-        <link rel="stylesheet" href="style.css">
-        <h5 class="card-title">IPHONE13PRO</h5>
-        <p class="card-text">Pantalla Super Retina XDR con ProMotion.
-Pantalla OLED de 6.7 pulgadas (diagonal) sin marco.
-Resolución de 2778 x 1284 pixeles a 458 ppi.
-Tecnología ProMotion con frecuencias de actualización adaptativas de hasta 120 Hz.
-Pantalla HDR.
-True Tone.
-Amplia gama de colores (P3)
-Toque con respuesta háptica.
-        content.</p>
-        
-        <a href="https://support.apple.com/es-lamr/111870" class="btn btn-primary">IR</a>
-        </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <img src="img/iphone13pro/iphone15por max.png" class="card-img-top" alt="Iphone 15 Pro Max">
-        <div class="card-body">
-        <h5 class="card-title">IPHONE15PRO MAX</h5>
-        <p class="card-text">Pantalla Super Retina XDR
-Pantalla OLED de 6.7 pulgadas (diagonal) sin marco
-Resolución de 2796 x 1290 pixeles a 460 ppi
-Dynamic Island
-Pantalla siempre activa
-Tecnología ProMotion con frecuencias de actualización adaptativas de hasta 120 Hz
-Pantalla HDR
-True Tone
-Amplia gama de colores (P3)
-Toque con respuesta háptica
-Relación de contraste 2,000,000:1 (normal)
-Brillo máximo de 1,000 nits (normal); pico de brillo de 1,600 nits (HDR); pico de brillo de 2,000 nits (en exteriores)
-Revestimiento oleofóbico resistente a huellas dactilares
-Compatibilidad para mostrar varios idiomas y caracteres simultáneamente</p>
-
-        <a href="https://support.apple.com/es-us/111828" class="btn btn-primary">IR</a>
-        </div>
-        <div class="card" style="width: 18rem;">
-        <img src="img/iphone13pro/IPHONE16PRO MAX.jpg" class="card-img-top" alt="Iphone16Pro Max">
-        <div class="card-body">
-        <h5 class="card-title">IPHONE16PRO MAX</h5>
-        <p class="card-text">El iPhone 16 Pro Max tiene la pantalla más grande que se haya visto en un iPhone.
-        Una nueva tecnología permite dirigir los datos de pixeles activos en la pantalla sin causar distorsión.
-        El resultado son unos bordes más delgados y unas pantallas Super Retina XDR más grandes, de 6.3 y 6.9 pulgadas, que son un placer de sostener.
-        El iPhone 16 Pro Max ni se inmuta con las salpicaduras, el agua y el polvo.
-        Y trae nuestro Ceramic Shield de última generación, que es dos veces más resistente que el vidrio de cualquier smartphone.
-        Te va a durar una eternidad.
-        content.</p>
-        <a href="https://support.apple.com/es-us/121032" class="btn btn-primary">IR</a>
-        </div>
+    <title>Mi Portafolio - Desarrollador Web</title>
     
-</body>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="70">
 
+    <!-- Header con Navegación -->
+    <header>
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#inicio">
+                    <i class="bi bi-code-slash"></i> Mi Portafolio
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre-mi">Sobre Mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#habilidades">Habilidades</a>
+                        </li>
+                
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main>
+        <!-- Sección Hero/Inicio -->
+        <section id="inicio" class="hero-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <h1 class="display-4 fw-bold mb-4">¡Hola! Soy Milton Montiel</h1>
+                        <h2 class="h3 mb-4">Desarrollador Web Full Stack</h2>
+                        <p class="lead mb-4">
+                            Creo experiencias digitales increíbles usando las últimas tecnologías web. 
+                            Especializado en desarrollo frontend y backend.
+                        </p>
+                        <div class="d-flex gap-3">
+                            <a href="#contacto" class="btn btn-outline-light btn-lg">Contactar</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <img src="img/005623c5-293a-44b7-be84-9e2c6dec8dc8.jpg" 
+                             alt="Foto de perfil" class="img-fluid rounded-circle shadow-lg" style="max-width: 350px;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Sobre Mí -->
+        <section id="sobre-mi" class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <h2 class="display-5 fw-bold mb-5">Sobre Mí</h2>
+                        <p class="lead mb-4">
+                            Soy muy nuevo en el mundo del desarrollo web, pero tengo una gran pasión por aprender y
+                            mejorar mis habilidades. Me encanta trabajar con HTML, CSS y JavaScript para crear 
+                            aplicaciones web modernas y funcionales.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="row mt-5">
+                    <div class="col-md-4 text-center mb-4">
+                        <div class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" 
+                             style="width: 80px; height: 80px;">
+                            <i class="bi bi-lightbulb fs-2"></i>
+                        </div>
+                        <h4>Creativo</h4>
+                        <p>Diseño soluciones innovadoras y interfaces atractivas que cautivan a los usuarios.</p>
+                    </div>
+                    
+                    <div class="col-md-4 text-center mb-4">
+                        <div class="bg-success text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" 
+                             style="width: 80px; height: 80px;">
+                            <i class="bi bi-gear fs-2"></i>
+                        </div>
+                        <h4>Técnico</h4>
+                        <p>Domino múltiples tecnologías y frameworks para crear aplicaciones robustas.</p>
+                    </div>
+                    
+                    <div class="col-md-4 text-center mb-4">
+                        <div class="bg-warning text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" 
+                             style="width: 80px; height: 80px;">
+                            <i class="bi bi-people fs-2"></i>
+                        </div>
+                        <h4>Colaborativo</h4>
+                        <p>Trabajo eficazmente en equipo y me comunico claramente.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Habilidades -->
+        <sect id="habilidades" class="section-padding bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <h2 class="display-5 fw-bold mb-5">Mis Habilidades</h2>
+                        <p class="lead mb-5">
+                            Estas son las tecnologías y herramientas que domino para crear proyectos increíbles.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="card h-100 text-center skill-item border-0 shadow-sm">
+                            <div class="card-body">
+                                <i class="bi bi-filetype-html text-danger fs-1 mb-3"></i>
+                                <h5 class="card-title">HTML5</h5>
+                                <div class="progress mb-2">
+                                    <div class="progress-bar bg-danger" style="width: 95%"></div>
+                                </div>
+                                <small class="text-muted">95%</small>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="card h-100 text-center skill-item border-0 shadow-sm">
+                            <div class="card-body">
+                                <i class="bi bi-filetype-css text-primary fs-1 mb-3"></i>
+                                <h5 class="card-title">CSS3</h5>
+                                <div class="progress mb-2">
+                                    <div class="progress-bar bg-primary" style="width: 90%"></div>
+                                </div>
+                                <small class="text-muted">90%</small>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="card h-100 text-center skill-item border-0 shadow-sm">
+                            <div class="card-body">
+                                <i class="bi bi-bootstrap text-purple fs-1 mb-3"></i>
+                                <h5 class="card-title">Bootstrap</h5>
+                                <div class="progress mb-2">
+                                    <div class="progress-bar bg-info" style="width: 88%"></div>
+                                </div>
+                                <small class="text-muted">88%</small>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="card h-100 text-center skill-item border-0 shadow-sm">
+                            <div class="card-body">
+                                <i class="bi bi-git text-danger fs-1 mb-3"></i>
+                                <h5 class="card-title">Git</h5>
+                                <div class="progress mb-2">
+                                    <div class="progress-bar bg-danger" style="width: 85%"></div>
+                                </div>
+                                <small class="text-muted">85%</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Contacto -->
+        <section id="contacto" class="section-padding contact-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <h2 class="display-5 fw-bold mb-5">Contacto</h2>
+                        <p class="lead mb-5">
+                            ¿Tienes un proyecto en mente? ¡Me encantaría escuchar sobre él!
+                        </p>
+                    </div>
+                </div>
+                
+              
+                
+                <div class="row mt-5">
+                    <div class="col-md-4 text-center mb-4">
+                        <div class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" 
+                             style="width: 60px; height: 60px;">
+                            <i class="bi bi-envelope fs-4"></i>
+                        </div>
+                        <h5>Email</h5>
+                        <p class="text-muted">MILTONMONTIEL951@GMAIL.COM</p>
+                    </div>
+                    
+                    
+                    <div class="col-md-4 text-center mb-4">
+                        <div class="bg-info text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" 
+                             style="width: 60px; height: 60px;">
+                            <i class="bi bi-geo-alt fs-4"></i>
+                        </div>
+                        <h5>Ubicación</h5>
+                        <p class="text-muted">Ciudad,barracas</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de Página -->
+    <footer class="py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="social-links text-md-end">
+                        <a href="#" aria-label="LinkedIn">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a href="#" aria-label="GitHub">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Script para navegación suave -->
+    <script>
+        // Navegación suave
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Formulario de contacto
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('¡Gracias por tu mensaje! Te contactaré pronto.');
+            this.reset();
+        });
+    </script>
+</body>
 </html>
